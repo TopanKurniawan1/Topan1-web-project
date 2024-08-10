@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2 form</title>
+</head>
+<body>
+    <h1>Isi data diri kamu</h1>
+<form action="page3-welcome.html" method="post">
+    <label for="nama" required><strong>Nama Depan:</strong></label><br>
+    <input type="text" name="nama" id="nama" placeholder="nama depan" required><br>
+    <label for="nama" required><strong>Nama Belakang:</strong></label><br>
+    <input type="text" name="nama-belakang" id="nama-belakang" placeholder="nama belakang" required><br>
+    <label for="nama" required><strong>marga:</strong></label><br>
+    <input type="text" name="nama" id="nama" placeholder="opsional"><br><br>
+
+    <label for="gender"><strong>Gender:</strong></label><br>
+    <input type="radio" name="gender" id="laki-laki">
+    <label for="laki-laki">laki laki</label><br>
+    <input type="radio" name="gender" id="perempuan">
+    <label for="perempuan">perempuan</label><br>
+    <input type="radio" name="gender" id="other">
+    <label for="perempuan">other</label><br><br>
+
+    <label for="Ras"><strong>Ras:</strong></label><br>
+    <select name="Ras" id="Ras">
+        <option value="" disabled selected>--select ras--</option>
+        <option value="manusia">ras manusia</option>
+        <option value="" disabled>ras kucing</option>
+    </select><br><br>
+
+    <label for="planet"><strong>Planet:</strong></label><br>
+    <select name="Ras" id="Ras">
+        <option value="" disabled selected>--select Planet--</option>
+        <option value="bumi">Bumi</option>
+        <option value="" disabled>Pluto</option>
+        <option value="" disabled>Matahari</option>
+    </select><br><br>
+
+
+
+    <label for="negara"><strong>Negara:</strong></label><br>
+    <select id="nationality" name="nationality" required="">
+        <option value="" disabled selected>--select nationality--</option>
+        <option value="indonesia">indonesia</option>
+        <option value="malaysia">malaysia</option>
+        <option value="thailand">thailand</option>
+    </select><br><br>
+
+    <label for="bahasa"><strong>Bahasa:</strong></label><br>
+    <select name="language" id="langauge">
+        <option value="" disabled selected>--select language--</option>
+        <option value="indonesia">Bahasa indonesia</option>
+        <option value="english">english</option>
+    </select><br><br>
+
+    <label for="hobby"><strong>Hobby:</strong></label><br>
+    <input type="checkbox" name="hobby" id="football">
+    <label for="football">football</label><br>
+    <input type="checkbox" name="hobby" id="basket">
+    <label for="basket">Basketball</label><br>
+    <input type="checkbox" name="hobby" id="other">
+    <label for="other">Other..</label><br><br>
+
+    <label for="tanggal"><strong>Tanggal lahir:</strong></label><br>
+    <input type="date" name="tanggal" id="tanggal" required><br><br>
+
+    <label for="biografi"><strong>Biografi:</strong></label><br>
+    <textarea name="biografi" id="biografi" rows="5" cols="50" placeholder="Tuliskan biografi anda di sini..." required></textarea><br><br>
+    
+    <label for="email"><strong>Email aktif:</strong></label><br>
+    <input type="text" name="email" id="email" placeholder="Easukan email anda" required><br><br>
+
+    <label for="no"><strong>Nomor telfon:</strong></label><br>
+    <input type="text" name="no" id="no" placeholder="(optional)"><br><br>
+
+    <input type="reset" value="Reset"> 
+    <input type="submit" value="kirim"> 
+
+
+</form>
+
+</body>
+</html>
